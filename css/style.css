@@ -224,16 +224,18 @@
       
   }
   
-  .habit-text h3{
-      color: #fff;
-      font-size: 18px;
-      font-weight: 500;
-  }
+  .habit-text h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
   .habit-text p {
       color: #fff;
       font-size: 14px;
       font-weight: 400;
       opacity: 50%;
+      margin-bottom: 20px;
   }
   
   /* habit css */
@@ -295,6 +297,7 @@
     border-radius: 8px;
     text-align: center;
     width: 340px;
+    margin-bottom: 30px;
     
   }
   .blog-item img{
