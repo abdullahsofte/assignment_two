@@ -1,0 +1,516 @@
+/* share related css */
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  *{
+      margin: 0 auto;
+      padding: 0;
+  }
+  body{
+    font-family: "Inter", sans-serif;
+  }
+  a{
+      text-decoration: none;
+  }
+   ul li{
+      list-style-type: none;
+   }
+   .container{
+     width: 1140px;
+   }
+   .btn-primary {
+      background-color: #000;
+      color: #fff;
+      font-size: 16px;
+      border: 1px solid #fff;
+      border-radius: 33px;
+      padding: 8px 36px;
+  }
+   .active{
+      background-color: #E6533C;
+      border: 1px solid #E6533C;
+  
+   }
+
+  
+    
+   /* share related css */
+  
+   
+  
+   /* header css */
+   #header{
+      background-color: #000;
+   }
+   .brand-name h1{
+      color: #E6533C;
+      font-size: 35px;
+      font-weight: 700;
+      
+   }
+   .navber{
+      display: flex;
+      padding: 20px 0px;
+      align-items: center;
+   }
+  
+   .brand-name{
+      margin-left: 0;
+   }
+   .navber .manu{
+      margin: 0;
+   }
+   .nav-link{
+      border: 1px solid #333;
+      border-radius: 23px;
+      padding: 3px;
+     
+   }
+   .nav-link .nav-item{
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 33px;
+     
+   }
+   
+   .nav-link .nav-item a {
+      color: #fff;
+      
+  }
+  /* header css */
+  
+  /* banner related css */
+  #banner{
+      background-color: #000;
+      padding: 40px 0px;
+  }
+  .banner{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .ban-item{
+    width: 520px;
+  }
+  .ban-item h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 78px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  .ban-item p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+    margin-bottom: 30px;
+
+
+}
+  .ban-item span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 78px;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+
+
+}
+.ban-image{
+    text-align: center;
+}
+.ban-image img{
+    width: 350px;
+    height: 580px;
+}
+.icon{
+    background-color: red;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.play-tab {
+    display: flex;
+    width: 180px;
+    height: 80px;
+    align-items: center;
+    background-color: #cccccc30;
+    border-radius: 7px;
+    position: absolute;
+    left: 0px;
+    bottom: 75px;
+}
+.play-tab1 {
+    display: flex;
+    width: 180px;
+    height: 80px;
+    align-items: center;
+    background-color: #cccccc30;
+    border-radius: 7px;
+    position: absolute;
+    right: 20px;
+    top: 102px;
+}
+.ban-right{
+    position: relative;
+}
+.play-tab h3{
+   color: #fff;
+   font-size: 24px;
+}
+.play-tab1 h4{
+   color: #fff;
+   font-size: 40px;
+}
+.play-tab p{
+   color: #fff;
+   font-size: 14px;
+   opacity: 50%;
+   margin-bottom: 0;
+}
+.play-tab1 p{
+   color: #fff;
+   font-size: 14px;
+   opacity: 50%;
+   margin-bottom: 0;
+}
+  /* banner related css */
+  /* habit css */
+  #habit{
+      background-color: #000;
+      padding: 40px 0px;
+  }
+  .section-header{
+      text-align: center;
+      padding-bottom: 40px;
+  }
+  .section-header h2{
+      font-size: 36px;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 24px;
+  }
+  .section-header p{
+      font-size: 20px;
+      color: #ccc;
+      font-weight: 400;
+      opacity: 50%;
+  }
+  .habit-content{
+      display: flex;
+      text-align: center;
+  }
+  
+  .habit-image img{
+      border: 3px solid #333;
+      border-radius: 50%;
+      
+  }
+  
+  .habit-text h3{
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+  }
+  .habit-text p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 50%;
+  }
+  
+  /* habit css */
+  /* run css */
+  #run{
+      background-color: #000;
+      padding: 40px 0px;
+  }
+  .run{
+      background-color: #222222;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding: 35px;
+  }
+  .run-item{
+      margin: 0;
+  }
+  
+  .run-item h2{
+      color: #fff;
+      font-size: 48px;
+      font-weight: 600;
+      margin-bottom: 20px;
+  }
+  .run-item p{
+      color: #fff;
+      opacity: 50%;
+      font-size: 14px;
+      font-weight: 400;
+      width: 360px;
+      line-height: 24px;
+      margin-bottom: 30px;
+  }
+  
+  
+  .run-image{
+      text-align: end;
+  }
+  .run-image img {
+      text-align: end;
+      border-radius: 18px;
+      width: 320px;
+      height: 266px;
+  }
+  /* run css */
+  /* blog css */
+  #blog{
+    background-color: #000;
+    padding: 40px 0px;
+  }
+ .blog-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .blog-item{
+    background-color: #222222;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    width: 340px;
+    
+  }
+  .blog-item img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 8px;
+
+  }
+  .blog-item  h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.blog-item  p{
+    color: #fff;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+  /* blog css */
+  /* bmi calculator */
+
+  table {
+      margin: 0;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #333;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+  }
+  table thead th{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+  table tbody td{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+  }
+
+  #calculator{
+      background-color: #000;
+      padding: 40px 0px;
+  }
+  .bim-wrapper{
+      background-color: #222222;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .bmi-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bmi-item1{
+    width: 310px;
+    margin-left: 0;
+  }
+  .bmi-item2{
+    width: 557px;
+    margin-right: 0;
+  }
+  .bmi-item1 h3{
+      color: #fff;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  .bmi-item2 h3{
+      color: #fff;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  .bmi-item2 p{
+      color: #fff;
+      opacity: 50%;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 15px;
+  }
+  .bmi-input{
+        width: 45%;
+        height: 25px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #5e6062a3;
+        border: none;
+        margin-bottom: 10px;
+
+  }
+  .bmi-select {
+    width: 49%;
+    height: 46px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #5e6062a3;
+    border: none;
+    color: #706c6c;
+    margin-bottom: 10px;
+}
+  .bmi-select2 {
+    width: 98%;
+    height: 46px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #5e6062a3;
+    border: none;
+    color: #706c6c;
+    margin-bottom: 10px;
+}
+   
+  
+  /* bmi calculator */
+  
+  /* meet our team */
+  #team{
+      background-color: #000;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  
+  .team-content {
+      background-color: #222222;
+      display: flex;
+      row-gap: 30px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 30px 0px;
+      border-radius: 8px;
+  }
+  .team-image img{
+      width: 326.67px;
+      height: 272px;
+      border-radius: 18px;
+  }
+  .team-item{
+      position: relative;
+  }
+  .team-text{
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      z-index: 1;
+  }
+  .team-text h3{
+       font-size: 20px;
+      color: #fff;
+      font-weight: 600;
+  }
+  .team-text p{
+      color: #fff;
+      opacity: 50%;
+      font-size: 14px;
+      font-weight: 400;
+     
+  }
+  /* meet our team */
+  
+  /* footer css */
+  #footer{
+      background-color: #191919;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .footer-item h1{
+      color: #E6533C;
+      font-size: 70px;
+      font-weight:800;
+      font-style: italic;
+  }
+  .footer-item p{
+      color: #fff;
+      opacity: 50%;
+      font-size: 14px;
+      font-weight: 400;
+  }
+  .footer-wrap{
+      display: grid;
+      grid-template-columns: 443px 181px 181px;
+      justify-content: space-between;
+  }
+  .footer-item h2{
+      font-size: 32px;
+      color: #fff;
+      font-weight: bold;
+  }
+  .footer-item ul li{
+     padding: 7px 0px;
+  }
+  .footer-item ul li a{
+      font-size: 22px;
+      color: #fff;
+      opacity: 50%;
+      font-weight: 400;
+  }
+  .copyright p{
+   padding-top: 40px;
+  
+  }
+  .copyright p{
+  text-align: center;
+  color: #fff;
+  opacity: 50%;
+  
+  }
+  
+  /* footer css */
+  
+   
+  
